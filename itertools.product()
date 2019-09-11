@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STD
+from itertools import product
+l1=input().split(' ')
+l1=list(map(int,l1))
+l2=input().split()
+l2=list(map(int,l2))
+l3=list((product(l1,l2)))
+for i in l3:
+    print(i,end=" ")
