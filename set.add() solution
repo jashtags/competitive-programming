@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+number_of_stamps=int(input())
+stamp_set=set()
+n_of_elements=0
+for i in range(number_of_stamps):
+    stamp_set.add(input())
+for i in stamp_set:
+    n_of_elements+=1
+print(n_of_elements)
