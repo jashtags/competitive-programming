@@ -8,3 +8,8 @@ for i in range(number_of_stamps):
 for i in stamp_set:
     n_of_elements+=1
 print(n_of_elements)
+
+
+or simply print the len of dictionary
+code:
+print(len(stamp_set))
