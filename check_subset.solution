@@ -1,0 +1,7 @@
+for _ in range(int(input())):
+
+    _, a, _, b = input(), set(input().split()), input(), set(input().split())
+    if a.issubset(b):
+        print("True")
+    else:
+        print("False")
